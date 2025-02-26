@@ -1,10 +1,12 @@
-import React from 'react';
+import { AllRoutes } from './routes/AllRoutes';
+import { Header, Footer } from "./components";
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <Header />
+      <AllRoutes />
+      <Footer />
     </div>
   );
 }
