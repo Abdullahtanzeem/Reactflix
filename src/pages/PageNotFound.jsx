@@ -1,6 +1,12 @@
+import { useEffect } from "react"
 import pageNotfound from "../assets/images/pagenotfound.jpg"
 import { Link } from "react-router-dom"
 export const PageNotFound = () => {
+  
+  useEffect(() => {
+    document.title= `Page Not Found / Reactflix`
+  }, []);
+
   return (
     <main>
       <section className="flex flex-col justify-center px-2">
